@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>calculator</title>
+  </head>
+  <body>
+    <h1> this can be used as a calculator. </h1>
+    <p><strong>the answer is:</strong> <span id="answer"></span></p>
+    <script>
+    let num1 = Number(prompt("Enter a value: "));
+    let num2 = Number(prompt("Enter another value! ")); 
+    let answer = num1 + num2;
+     document.getElementById("answer").textContent = answer;
+    </script>
+  </body>
+</html>
