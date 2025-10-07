@@ -3,17 +3,17 @@ body {
 }
 
 h1 {
-    color: pale pink;
+    color: #FFE2FE;
     font-size: 1rem;
     text-decoration: underline;
 }
 
 h2 {
-    color: greyish pale pink;
+    color: #D3C1D2;
     font-size: 1rem;
 }
 
 p {
-    color: grey pink;
+    color: #939196;
     font-size: 1rem;
 }
