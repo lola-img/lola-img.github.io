@@ -1,9 +1,21 @@
 body {
-      background-color: beige;
+      background-color: #273C2C;
 }
 
 h1 {
-    color: #FFE2E2;
+    color: #FFE2FE;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #D3C1D2;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+p {
+    color: #939196;
     font-size: 1rem;
     text-decoration: underline;
 }
