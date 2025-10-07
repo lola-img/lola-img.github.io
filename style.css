@@ -1,21 +1,21 @@
 body {
-      background-color: #273C2C;
+      background-color: #off black;
 }
 
 h1 {
-    color: #FFE2FE;
+    color: #pale pink;
     font-size: 1rem;
     text-decoration: underline;
 }
 
 h2 {
-    color: #D3C1D2;
+    color: #greyish pale pink;
     font-size: 1rem;
     text-decoration: underline;
 }
 
 p {
-    color: #939196;
+    color: #grey pink;
     font-size: 1rem;
     text-decoration: underline;
 }
