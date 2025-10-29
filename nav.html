@@ -29,12 +29,15 @@
         padding: 14px; 16px;
         text-decoration: none;
       }
-      ul li a:hover{
-        background-color: #111;
+      ul li a:hover:not(active{
+        background-color: black;
         font-size: larger;
         font-decoration: dashed;
         color: white;
-  
+      }
+      ul li a.active{
+        background-color: skyblue;
+        
       }
     </style>
   </head>
