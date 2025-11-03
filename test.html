@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elephants of the World</title>
+<link href="" rel="stylesheet" type="text/css"/>
+<style>
+/* 🌿 General page styles */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f5f9fc;
+  color: #333;
+  margin: 0;
+}
+
+/* 🐘 Navbar */
+#navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #3a7ca5;
+  color: white;
+  padding: 10px 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* 🌍 Hero section */
+#hero {
+  text-align: center;
+  background: #c8e8f3;
+  color: #2b6777;
+  padding: 140px 20px 80px;
+  margin-top: 60px;
+  position: relative;
+  z-index: 1;
+}
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+#hero p {
+  font-size: 1.2rem;
+}
+
+/* 📦 General section layout */
+.section {
+  margin: 60px auto;
+  width: 80%;
+  max-width: 900px;
+  color: #333;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+/* 🫧 Parent and child boxes */
+.parent-box {
+  position: relative;
+  background-color: white;
+  border: 2px solid #3a7ca5;
+  padding: 30px;
+  margin-top: 25px;
+  border-radius: 8px;
+}
+.child-box {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: white;
+  border: 2px solid #3a7ca5;
+  padding: 10px;
+  border-radius: 6px;
+  width: 45%;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+}
+
+/* 📌 Sticky title (fixed version) */
+.sticky-title {
+  position: sticky;
+  top: 10px;
+  background-color: #3a7ca5;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 5;
+}
+
+/* 💡 Info box */
+.info-box {
+  background-color: white;
+  border: 2px solid #3a7ca5;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+/* 🐾 Fun fact cards */
+.fact-card {
+  background-color: white;
+  border: 2px solid #6fc276;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* 🌊 Footer */
+#footer {
+  background-color: #3a7ca5;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  z-index: 10;
+  border-top: 3px solid #2b6777;
+}
+</style>
+</head>
+
+<body>
+  <div id="navbar">
+    <h2>🐘 Elephants</h2>
+    <h2>Name</h2>
+  </div>
+
+  <div id="hero">
+    <h1>Elephants of the World</h1>
+    <p>The gentle giants that shape our ecosystems.</p>
+  </div>
+
+  <div class="section">
+    <h2>About Elephants</h2>
+    <p>Elephants are the largest land mammals on Earth. They are highly intelligent and form
+    strong family bonds led by a matriarch. They use their trunks for eating, drinking, and
+    communication.</p>
+
+    <div class="parent-box">
+      <p>This light blue box is the parent element.</p>
+      <div class="child-box">
+        <p>This smaller box is <strong>positioned absolutely</strong> inside its parent.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="sticky-title">Types of Elephants</h2>
+    <p>There are three main species of elephants — each adapted to its own habitat:</p>
+    <ul>
+      <li><strong>African Savannah Elephant:</strong> Found in open grasslands.</li>
+      <li><strong>African Forest Elephant:</strong> Smaller, lives in dense forests.</li>
+      <li><strong>Asian Elephant:</strong> Found across South and Southeast Asia.</li>
+    </ul>
+
+    <div class="info-box">
+      <p><strong>Fun fact:</strong> Elephant ears help regulate body temperature!</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Fun Facts</h2>
+    <div class="facts-container">
+      <div class="fact-card">🐘 Elephants can recognize themselves in mirrors.</div>
+      <div class="fact-card">💧 They use their trunks like snorkels when swimming.</div>
+      <div class="fact-card">🌿 They eat up to 300 pounds of food per day!</div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <p>© 2025 Elephants of the World</p>
+  </div>
+</body>
+</html>
